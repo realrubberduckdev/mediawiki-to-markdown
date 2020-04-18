@@ -5,7 +5,7 @@ $arguments = arguments($argv);
 
 require 'vendor/autoload.php';
 
-
+ini_set('memory_limit', '-1');
 
 // Load arguments passed from CLI 
 
