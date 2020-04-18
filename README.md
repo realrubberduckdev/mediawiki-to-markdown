@@ -4,6 +4,7 @@ MediaWiki to Markdown
 Convert MediaWiki pages to GitHub flavored Markdown (or other formats supported by Pandoc). The conversion uses an XML export from MediaWiki and converts each wiki page to an individual markdown file. Directory structures will be preserved. The generated export can also include frontmatter for Github pages.
 
 You may also be interested in a forked version of this codebase available at https://github.com/philipashlock/mediawiki-to-markdown
+
 You may also be interested in a forked version of this codebase available at https://github.com/outofcontrol/mediawiki-to-gfm
 
 
@@ -21,6 +22,7 @@ You'll export all your pages as a single XML file following these steps: http://
 ## Run
 
 The simplest way to run is using the `convert.ps1` script.
+
 `.\convert.ps1 -convertFileArgFullPath C:\wiki.xml`
 
 ### Further granular run parameters
