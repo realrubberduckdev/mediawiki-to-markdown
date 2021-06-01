@@ -29,11 +29,11 @@ if(!empty($arguments['output'])) {
 if(!empty($arguments['format'])) {
     $format = $arguments['format'];
 } else {
-    $format = 'markdown_github';
+    $format = 'gfm';
 }
 
 
-if(!empty($arguments['fm']) OR (empty($arguments['fm']) && $format == 'markdown_github')) {
+if(!empty($arguments['fm']) OR (empty($arguments['fm']) && $format == 'gfm')) {
     $add_meta = true;
 } else {
     $add_meta = false;
