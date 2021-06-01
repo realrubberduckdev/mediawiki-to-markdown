@@ -46,13 +46,13 @@ You can set `indexes` as `true` if you want pages with the same name as a direct
 `php convert.php --filename=mediawiki.xml --output=export --indexes=true`
 
 ####--frontmatter####
-You can specify whether you want frontmatter included. This is automatically set to `true` when the output format is `markdown_github`
+You can specify whether you want frontmatter included. This is automatically set to `true` when the output format is `gfm`
 
 `php convert.php --filename=mediawiki.xml --output=export --format=markdown_phpextra --frontmatter=true`
 
 
 ####--format####
-You can specify different output formats with `format`. The default is `markdown_github`. See 
+You can specify different output formats with `format`. The default is `gfm`. See 
 
 `php convert.php --filename=mediawiki.xml --output=export --format=markdown_phpextra`
 
@@ -76,7 +76,7 @@ Supported pandoc formats are:
 * latex
 * man
 * markdown
-* markdown_github
+* gfm
 * markdown_mmd
 * markdown_phpextra
 * markdown_strict

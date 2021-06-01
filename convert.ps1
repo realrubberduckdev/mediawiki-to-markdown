@@ -37,4 +37,4 @@ docker build -t $image .
 
 RefreshDirectory $outputFolder
 $dockerRunCmd = "php convert.php --filename="+$fileToConvertPathForDockerImage+" --output=./output"
-docker run -v ${PSScriptRoot}/output/:/src/output $image sh -c $dockerRunCmd
+docker run -v ${PSScriptRoot}/output/:/src/output $image $dockerRunCmd
